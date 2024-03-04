@@ -21,3 +21,6 @@ Bem-vindo ao nosso README do Aplicativo Gerenciador de Tarefas! Este documento i
 ## Uso
 1. **Não se aplica ainda.** 
 
+## Suporte
+Se encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para criar uma issue em nosso repositório no [GitHub](https://github.com/AlexandreTessaro/web-application).
+
