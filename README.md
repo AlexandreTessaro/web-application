@@ -11,9 +11,11 @@ Bem-vindo ao nosso README do Aplicativo Gerenciador de Tarefas! Este documento i
 - **Interface Amigável ao Usuário:** Design intuitivo para navegação fácil e gerenciamento eficiente de tarefas.
 
 ## Tecnologias
-1. **JavaScript** 
-1. **NodeJS** 
-1. **MongoDB** 
+1. **HTML5** 
+2. **CSS3** 
+3. **JavaScript** 
+4. **NodeJS** 
+5. **MongoDB** 
 
 ## Instalação
 1. **Não se aplica ainda.** 
