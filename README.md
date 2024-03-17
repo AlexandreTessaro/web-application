@@ -11,7 +11,7 @@ Opção para login com contas de redes sociais (por exemplo, Google, Facebook).
 2. **Login:**
 Os usuários podem fazer login na aplicação usando suas credenciais registradas.
 
-3.**Dashboard:**
+3. **Dashboard:**
 Visão geral das tarefas pendentes, concluídas e em andamento.
 Opção para adicionar, editar e excluir tarefas.
 
@@ -38,11 +38,10 @@ Garantir que a aplicação seja responsiva em dispositivos móveis para facilita
 - **Interface Amigável ao Usuário:** Design intuitivo para navegação fácil e gerenciamento eficiente de tarefas.
 
 ## Tecnologias
-1. **HTML5** 
-2. **CSS3** 
-3. **JavaScript** 
-4. **NodeJS** 
-5. **MongoDB** 
+1. **Next.js**
+2. **JavaScript** 
+3. **NodeJS** 
+4. **MongoDB** 
 
 ## Instalação
 1. **Não se aplica ainda.** 
