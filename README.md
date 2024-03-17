@@ -4,30 +4,30 @@
 O Gerenciador de Tarefas é uma aplicação web que permite aos usuários criar, organizar e acompanhar suas tarefas de forma eficiente. Ele fornece uma interface intuitiva e fácil de usar para gerenciar todas as atividades pessoais e profissionais.
 
 ## Funcionalidades 
-1.**Registro de Usuário:**
+1. **Registro de Usuário:**
 Os usuários podem se registrar na aplicação usando um endereço de e-mail e senha.
 Opção para login com contas de redes sociais (por exemplo, Google, Facebook).
 
-2.**Login:**
+2. **Login:**
 Os usuários podem fazer login na aplicação usando suas credenciais registradas.
 
 3.**Dashboard:**
 Visão geral das tarefas pendentes, concluídas e em andamento.
 Opção para adicionar, editar e excluir tarefas.
 
-4.**Adicionar Tarefa:**
+4. **Adicionar Tarefa:**
 Os usuários podem adicionar novas tarefas, fornecendo título, descrição, data de vencimento e prioridade.
 
-5.**Editar Tarefa:**
+5. **Editar Tarefa:**
 Os usuários podem editar as informações de uma tarefa existente, como título, descrição, data de vencimento e prioridade.
 
-6.**Excluir Tarefa:**
+6. **Excluir Tarefa:**
 Os usuários podem excluir tarefas que não são mais necessárias.
 
-7.**Marcar Tarefa como Concluída:**
+7. **Marcar Tarefa como Concluída:**
 Os usuários podem marcar uma tarefa como concluída quando terminarem.
 
-8.**Responsividade:**
+8. **Responsividade:**
 Garantir que a aplicação seja responsiva em dispositivos móveis para facilitar o acesso em qualquer lugar.
 
 ## Recursos
