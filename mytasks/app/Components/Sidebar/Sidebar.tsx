@@ -5,8 +5,19 @@ import styled from "styled-components";
 import { useGlobalState } from "@/app/context/globalProvider";
 import Image from "next/image";
 
+import menu from "@/app/utils/menu";
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
+
 function Sidebar(){
     const { theme } = useGlobalState();
+
+    const router = useRouter();
+    const pathname = usePathname();
+
+    const handleClick = (link: string) => {
+        router.push(link);
+    }
 
     return <SidebarStyled theme={theme}>
         <div className="profile">
@@ -19,6 +30,20 @@ function Sidebar(){
                 <span>Tessaro</span>
             </h1>
         </div>
+        <ul className="nav-items">
+            {menu.map((item) => {  
+                return (
+                    <li 
+                        className={`nav-item`} 
+                        onClick={() =>{
+                        handleClick(item.link);
+                    }}>
+                        {item.icon}
+                        <Link href={item.link}> {item.title} </Link>
+                    </li>
+                );
+            })}
+        </ul>
     </SidebarStyled>;
 }
 
