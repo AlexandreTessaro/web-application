@@ -32,14 +32,16 @@ function Sidebar(){
         </div>
         <ul className="nav-items">
             {menu.map((item) => {  
+                
+                const link = item.link;
                 return (
                     <li 
-                        className={`nav-item`} 
+                        className={`nav-item ${pathname === link ? "active" : ""}`} 
                         onClick={() =>{
-                        handleClick(item.link);
+                        handleClick(link);
                     }}>
                         {item.icon}
-                        <Link href={item.link}> {item.title} </Link>
+                        <Link href={link}> {item.title} </Link>
                     </li>
                 );
             })}
@@ -51,9 +53,12 @@ const SidebarStyled = styled.nav`
     position: relative;
     width: ${(props) => props.theme.sidebarWidth};
     background-color: ${(props) => props.theme.colorBg2};
-    border-right: 2px solid ${(props) => props.theme.borderColor2};
-    
+    border: 2px solid ${(props) => props.theme.borderColor2};
     border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 `;
 
 export default Sidebar;
